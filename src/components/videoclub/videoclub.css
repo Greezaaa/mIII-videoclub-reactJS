@@ -1,0 +1,16 @@
+#video_club {
+    width: min(1400px, 100% - 20px);
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px
+}
+
+
+
+#video_club:hover .pelicula {
+    opacity: 1;
+    background-color: #f2f2f2;
+}
